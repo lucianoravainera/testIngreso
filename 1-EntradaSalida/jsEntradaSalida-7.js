@@ -5,6 +5,7 @@ ej.: "la Resta es 750"*/
 function sumar()
 { alert("sumar"); //prueba git hub!!	
    alerrtertgegdf //segunda prueba github
+   fsdafsdafsdf
 	var numeroUno;
 	var numeroDos;
 
