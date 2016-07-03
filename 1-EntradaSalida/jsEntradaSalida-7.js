@@ -3,9 +3,7 @@ transformarlos a enteros (parseInt),realizar la operación correcta y
 mostar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"*/ 
 function sumar()
-{ alert("sumar"); //prueba git hub!!	
-   alerrtertgegdf //segunda prueba github
-   fsdafsdafsdf
+{
 	var numeroUno;
 	var numeroDos;
 
