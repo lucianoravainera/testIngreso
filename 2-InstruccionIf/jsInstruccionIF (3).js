@@ -8,5 +8,8 @@ if (laEdad >= 18) {
 else{
 	alert("Usted es menor de edad");
 }
-
+/* Tambien funciona: 
+if (laEdad < 18){
+	alert("Usted es menor de edad");
+}*/
 }//FIN DE LA FUNCIÓN
