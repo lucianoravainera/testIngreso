@@ -9,8 +9,9 @@ if(laEdad < 18)	{
 		alert("Es muy pequeño para no ser soltero");
 	}
 
-}*/
-if(laEdad < 18 && elEstadoCivil != "soltero") {
+}*/ 
+// FUNCIONA!
+if(laEdad < 18 && elEstadoCivil != "Soltero") {
 alert("es muy pequeño para NO ser soltero");
 }
 
