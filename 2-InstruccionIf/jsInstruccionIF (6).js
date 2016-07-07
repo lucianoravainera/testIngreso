@@ -17,7 +17,7 @@ function Mostrar()
 	alert("Usted es un niño");
 	} 
 */
-// en clase: meyor que el ejemplo anterior.
+// en clase: mejor que el ejemplo anterior.
 	if (laEdad < 13){
 		alert("es menor");
 	}
