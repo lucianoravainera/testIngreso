@@ -25,6 +25,12 @@ alert("Comprar " + radio + " de alambre.");
 }
 function Materiales () 
 {
-	
-	
+var largo = document.getElementById('Largo').value;
+var ancho = document.getElementById('Ancho').value;	
+var area = largo * ancho;
+var bolsaCemento = (largo * ancho) * 2;
+var bolsaCal = (largo * ancho) * 3;
+//alert(bolsaCemento);
+//alert(bolsaCal); prueba
+alert("se deben comprar: " + bolsaCemento + " bolsas de cemento y " + bolsaCal + " bolsas de cal para un area de: " + area + " M2");
 }
