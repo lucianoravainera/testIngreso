@@ -18,9 +18,13 @@ alert("Comprar: " + cantidadDeAlambre + " de alambre.")
 }
 function Circulo () 
 {
-	
+var valor = document.getElementById('Radio').value; 	
+var radio =(Math.PI * Math.pow(valor,2)) * 3;
+alert("Comprar " + radio + " de alambre.");
+
 }
 function Materiales () 
 {
+	
 	
 }
