@@ -8,7 +8,8 @@ E.	Si el importe final con descuento suma más de $120  se debe sumar un 10% de 
  ”Usted pago X de IIBB.”, siendo X el impuesto que se pagó. 
 
  */
- /*if (cantidad >= 6)
+ /*ejemplo en clase: realizarlo asi
+ if (cantidad >= 6)
  {
 	descuento = 0.5;
  }
