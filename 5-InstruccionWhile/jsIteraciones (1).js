@@ -2,16 +2,18 @@ function Mostrar()
 {
 	//alert('iteración while');	
 var contador = 0;
-//while(contador < 3){
-while(true){
-	alert("interacion while " + contador);
-//contador = contador + 1; //primero sumo despues pregunto si llego a 3 con el if
+while(1) {
+	contador = contador + 1;
 	if(contador == 3){
-			break;
+		continue; //a partir del continue saltea el resto y vuelve al while con el contador como estaba.
 					}
-		contador = contador + 1; // primero pregunto si llego al 3 y despues sumo al contador
-				}				
-
+	alert("while " + contador);
+	if(contador == 6){
+		break; // el break nos saca del while.
+					}
+	alert("fin" + contador);									
+		}
+			
 }//FIN DE LA FUNCIÓN
  
  /* explicacion en clase
@@ -38,4 +40,16 @@ if(contador < 10){
 	alert("interacion while " + contador);
 contador = contador + 1;
 				}
-*/		
+*/	
+
+	/*
+//while(contador < 3){
+while(true){
+	alert("interacion while " + contador);
+//contador = contador + 1; //primero sumo despues pregunto si llego a 3 con el if
+	if(contador == 3){
+			break;
+					}
+		contador = contador + 1; // primero pregunto si llego al 3 y despues sumo al contador
+				}				
+*/
