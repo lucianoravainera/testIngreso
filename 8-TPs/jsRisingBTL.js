@@ -9,5 +9,15 @@ F.	Nacionalidad, “A” para argentinos, “E” para extranjeros, “N” para
  */
 function ComenzarIngreso () 
 {
- 
-}
+ var edad = prompt("ingrese edad", "entre 18 y 90 años");
+ while(edad <18 || edad >90)
+ 	{
+ 	edad = prompt("INGRESE EDAD VALIDA entre 18 y 90 años");// si se carga letra carga igual??
+ 	}//fin wile edad
+document.getElementById('Edad').value = edad;
+
+
+
+
+
+}//fin funcion (ComenzarIngreso)
