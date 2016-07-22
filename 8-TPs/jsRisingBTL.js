@@ -12,12 +12,26 @@ function ComenzarIngreso ()
  var edad = prompt("ingrese edad", "entre 18 y 90 años");
  while(edad <18 || edad >90)
  	{
- 	edad = prompt("INGRESE EDAD VALIDA entre 18 y 90 años");// si se carga letra carga igual??
- 	}//fin wile edad
+ 	edad = prompt("INGRESE EDAD VALIDA entre 18 y 90 años");   // si se carga letra carga igual??
+ 	}//FIN WHILE EDAD
 document.getElementById('Edad').value = edad;
+//FIN EDAD
+var sexo = prompt("ingrese sexo m=masculino o f=femenino.");
+while(sexo != "f" && sexo != "m") 
+	{
+		sexo = prompt("ingrse un dato valido m=masculino o f=femenimo.");
+	}//FIN WHILE SEXO
+	switch(sexo)
+		{
+		case "f":
+		document.getElementById('Sexo').value = "femenimo";
+		break;
+		case "m":	
+		document.getElementById('Sexo').value = "masculino";
+		break;
+		}
+//FIN SEXO
 
 
 
-
-
-}//fin funcion (ComenzarIngreso)
+}//FIN FUNCION (ComenzarIngreso)
