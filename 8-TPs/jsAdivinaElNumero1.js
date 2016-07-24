@@ -12,15 +12,14 @@ var contadorIntentos;
 
 function comenzar()
 {
-	//Genero el número RANDOM entre 1 y 100
-	 
-		//alert(numeroSecreto );
-	
+//Genero el número RANDOM entre 1 y 100
+numeroSecreto = Math.floor((Math.random() * 100) + 1);	
+	//alert(numeroSecreto );
 
-}
+}//FIN FUNCION COMENZAR
 
 function verificar()
 {
-	
-	
-}
+var numeroIngresado = document.getElementById('numero').value;
+var contador = 0;
+}//FIN FUNCION VERIFICAR
