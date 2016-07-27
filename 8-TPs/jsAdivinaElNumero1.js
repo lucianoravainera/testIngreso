@@ -22,7 +22,24 @@ contadorIntentos = 0;
 function verificar()
 {
 var numeroIngresado = document.getElementById('numero').value;
-
+contadorIntentos = contadorIntentos + 1;
+while (numeroSecreto == numeroIngresado)
+	{
+		alert("Usted es un ganador!! y en solo "+contadorIntentos+" intentos.");
+	break;
+	}//fin while
+while (numeroSecreto != numeroIngresado) 
+	{
+		if(numeroIngresado > numeroSecreto) 
+		{
+			alert("se paso del numero secreto");
+		}//fin if >
+		else
+		{
+			alert("falta para el numero secreto");
+		}//fin else <
+	break;
+	}//fin while
 
 
 }//FIN FUNCION VERIFICAR
