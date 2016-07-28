@@ -10,9 +10,9 @@ F.	Nacionalidad, “A” para argentinos, “E” para extranjeros, “N” para
 function ComenzarIngreso () 
 {
  var edad = prompt("ingrese edad", "entre 18 y 90 años");
- while(edad <18 || edad >90 || isNaN(edad) )
+ while(isNaN(edad) || edad <18 || edad >90 )
  	{
- 	edad = prompt("INGRESE EDAD VALIDA entre 18 y 90 años");   // si se carga letra carga igual??
+ 	edad = prompt("INGRESE EDAD VALIDA entre 18 y 90 años");   
  	}//FIN WHILE EDAD
 document.getElementById('Edad').value = "Edad: " + edad;
 //FIN EDAD
@@ -32,7 +32,7 @@ while(sexo != "f" && sexo != "m")
 		}//FIN SWITCH SEXO
 //FIN SEXO
 var estadoCivil = prompt("ingrese estado civil en numeros:"+"\n 1: soltero"+"\n 2: casado"+"\n 3: divorciado"+"\n 4: viudo" );
-while(estadoCivil!="1"&&estadoCivil!="2"&&estadoCivil!="3"&&estadoCivil!="4"||isNaN(estadoCivil))
+while(isNaN(estadoCivil) || estadoCivil!="1"&&estadoCivil!="2"&&estadoCivil!="3"&&estadoCivil!="4")
 	{
 	var estadoCivil = prompt("ingrese estado civil VALIDO en numeros:"+"\n 1: soltero"+"\n 2: casado"+"\n 3: divorciado"+"\n 4: viudo" );
 	}//FIN WHILE ESTADO CIVIL
@@ -53,14 +53,14 @@ while(estadoCivil!="1"&&estadoCivil!="2"&&estadoCivil!="3"&&estadoCivil!="4"||is
 		}//FIN SWITCH ESTADOCIVIL
 // FIN ESTADO CIVIL
 var sueldoBruto = prompt("Ingrese sueldo bruto mayor a 8000.");
-while(sueldoBruto < 8000 || isNaN(sueldoBruto))
+while(isNaN(sueldoBruto) || sueldoBruto < 8000)
 	{
 		sueldoBruto = prompt("Ingrese sueldo bruto MAYOR a 8000");
 	}//FIN WHILE SUELDO BRUTO
 document.getElementById('Sueldo').value	="Sueldo bruto: " + sueldoBruto;
 //FIN SUELDO BRUTO.	
 var numeroLegajo = prompt("ingrese numero de legajo de 4 cifras, sin 0 a la izquierda ");
-while(numeroLegajo < 1000 || numeroLegajo > 9999 || isNaN(numeroLegajo))
+while(isNaN(numeroLegajo) || numeroLegajo < 1000 || numeroLegajo > 9999)
 	{
 		numeroLegajo = prompt("ingrese numero de legajo VALIDO de 4 cifras, sin 0 a la izquierda ");
 	}//FIN WHILE NUMERO DE LEGAJO
