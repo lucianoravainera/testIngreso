@@ -11,3 +11,4 @@ document.getElementById('promedio').value=acumulador/contador;
 
 }//FIN DE LA FUNCIÓN
 // hacer: tp 12, 5tp, 7 tp, 9 tp, 11 tp.
+//clase que viene ejercicios de iteraciones (while) con for y fdespues vemos for 
