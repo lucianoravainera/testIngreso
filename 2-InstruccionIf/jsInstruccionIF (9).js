@@ -13,6 +13,6 @@ function Mostrar()
 
 
 	//sacar las comas: (floor=devuelve la parte entera del numero)
-    var numero = Math.floor(Math.random() * 10) + 1);
+    var numero = Math.floor(Math.random() * 10) + 1;
 	alert(numero); 
 }//FIN DE LA FUNCIÓN
