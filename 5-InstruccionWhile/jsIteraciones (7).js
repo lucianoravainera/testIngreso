@@ -25,6 +25,15 @@ while(respuesta != 'no')
 document.getElementById('suma').value=acumulador;
 document.getElementById('promedio').value=acumulador/contador;
  
-}//FIN DE LA FUNCIÓN
+}
+/*while(respuesta== 'si'){--
+--
+
+--
+ ingrese "s" para continuar
+ }
+*/
+//document.write : escribe en la misma pagina
+//FIN DE LA FUNCIÓN
 // hacer: tp 12, 5tp, 7 tp, 9 tp, 11 tp.
 //clase que viene ejercicios de iteraciones (while) con for y despues vemos for 
